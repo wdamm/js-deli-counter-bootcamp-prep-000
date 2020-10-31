@@ -18,7 +18,7 @@ function currentLine (katzDeliLine) {
    return "The line is currently empty.";
  }
  else {
-  count = 0;
+  let count = 0;
   while (count < katzDeliLine) {
     arr.push(`${count + 1}. ${katzDeliLine[count]}`);
   }
