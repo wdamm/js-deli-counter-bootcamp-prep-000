@@ -24,7 +24,7 @@ function currentLine (katzDeliLine) {
     arr.push(`${count + 1}. ${katzDeliLine[count]}`);
   }
  }
-   result = "The line is currently " + arr;
+   let result = "The line is currently " + arr;
   return result;
   
 }
