@@ -21,7 +21,7 @@ function currentLine (katzDeliLine) {
  else {
   let count = 0;
   while (count < katzDeliLine.length) {
-    arr.push(`${count + 1}. ${katzDeliLine[count]} `);
+    arr.push(` ${count + 1}. ${katzDeliLine[count]}`);
     count++;
   }
  }
